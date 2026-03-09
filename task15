@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <h1 style="text-align: center;">John Doe</h1>
+        <p style="text-align: center;">Home | Projects | Blogs | Contact</p>
+        <h2 style="text-align: center;">Web Developer and Designer</h2>
+        <style>
+            table, th, td {border: 2px solid black; background-origin: padding-box; }
+        </style>
+    </head>
+
+    <body>
+        <table style="width: 100%; margin: auto;">
+            <tr>
+                <th style="text-align: left;">
+
+                    <b>Portfolio Highlights</b>
+
+                    <ul>
+
+                        <li>
+                            <p style="font-weight: normal;">Responsif HTML Layout</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">E-commerce Storefont</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Interactive Form Design</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Event Countdown Widget</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Prototype Landing Pages</p>
+                        </li>
+                        
+                    </ul>
+                </th>
+
+                <th style="text-align: left;">
+
+                    <b>Career Achivement</b>
+                    <p style="font-weight: normal; text-align: left ;">Frontend Developer [Interrn] at XYZ </br> Headed major product redesign resulting in a 40% increase in user engagement.</br>
+                        <a href="https://www.linkedin.com/">View My linkedin Profile</a>
+                    </p>
+
+                    <b>Community Involvement</b>
+
+                    <p style="font-weight: normal;">Active participant in local and online developer 
+                        forums. Regularly contribute to web development blogs and GitHub projects.<br>
+                    <a href="https://github.com/">Visit My GitHub</a>
+                    </p>
+                   
+                </th>
+
+                <th style="text-align: left;">
+
+                    <b>Academic Qualifications</b>
+                    <p style="font-weight: normal;"> B.Tech (Computer Science) from ABC University</p>
+                    <p style="font-weight: normal;">Specializational:</p>
+
+                    <ul>
+
+                        <li>
+                            <p style="font-weight: normal;">System Analysis</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Advanced JavaScript</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Web Accessibility Standards</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Performence Optimization in Web Applications</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Cloud Computing Insfrastructure</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Security in Web Applications</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Advanced Algorithms</p>
+                        </li>
+
+                    </ul>
+
+                </th>
+
+            </tr>
+        </table>
+
+        <h2>Peer Reviews</h2>
+
+        <table style="width: 100%;margin: auto;">
+
+            <tr>
+
+                <td>
+                    <p>John Doe consistently delivers high-quality, 
+                        innovative solutions that exceed project expectations. <br>
+                        -Steven, Project Lead
+                    </p>
+                </td>
+
+                <td>
+                    <p>John Doe is know for his precise attention to detail and his ability 
+                        to mentor younger developers. <br>
+                        -David, UI Designer
+                    </p>
+                </td>
+
+                <td>
+                    <p>John's approach to problem-solving has been instrumental in our success. <br>
+                        -Sarah, Frontend Developer
+                    </p>
+                </td>
+
+            </tr>
+
+        </table>
+        <p style="text-align: center; margin-top: 5px;">&copy; [2025] All rights reserved by John Doe</p>
+    
+        
+
+    </body>
+
+</html>

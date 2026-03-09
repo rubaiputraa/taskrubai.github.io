@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td { border: 3px solid gray; border-collapse: collapse; }
+        </style>
+    </head>
+    <body>
+
+        <h2>Unordered HTML list</h2>
+        <p>Urutan Bahasa Pemrograman Populer 2024 :</p>
+        <ul>
+            <li>C/C++</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+
+        <p>__________________________________________________________</p>
+
+        <h2>Candidates</h2>
+        
+        <table style="width: 100%;">
+            <tr>
+                <th style="width: 30px; height: 30px; text-align: center;"><b>User ID</b></th>
+                <th style="width: 50px; height: 30px; text-align: center;"><b>Photo</b></th>
+                <th style="width: 10px; height: 30px; text-align: center;"><b>Name</b></th>
+                <th style="width: 100px;height: 30px; text-align: center;"><b>Description</b></th>
+                <th style="width: 40px; height: 30px; text-align: center;"><b>Phone</b></th>
+            </tr>
+
+            <tr style="height: 150px;">
+                <td style="text-align: center;">00001</td>
+                <td style="text-align: center;"> <img src="https://www.w3schools.com/w3css/img_avatar1.png" height="100" width="100"> </td>
+                <td style="padding-left: 10px;">Andy Stefanus</td>
+                <td style="padding-left: 20px;"> 
+                    <p>Bachelor Degree in Informatics Engineering.<br>
+                    3 Top Skills: </p>
+                    <ol>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                        <li>MySQL</li>
+                    </ol>
+                </td>
+                <td style="text-align: center;">5555-1234</td>
+            </tr>
+
+            <tr style="height: 150px;">
+                <td style="text-align: center;">00009</td>
+                <td style="text-align: center;"> <img src="https://www.w3schools.com/w3css/img_avatar2.png" height="100" width="100"> </td>
+                <td style="padding-left: 10px;">John Doe</td>
+                <td style="padding-left: 20px;"> 
+                    <p>Master Degree in System Information.<br>
+                    3 Top Skills: </p>
+                    <ol>
+                        <li>Visual Studio</li>
+                        <li>SQL Server</li>
+                        <li>Oracle</li>
+                    </ol>
+                </td>
+                <td style="text-align: center;">5555-7890</td>
+            </tr>
+
+            <tr style="height: 150px;">
+                <td style="text-align: center;">00031</td>
+                <td style="text-align: center;"> <img src="https://www.w3schools.com/w3css/img_avatar3.png" height="100" width="100"> </td>
+                <td style="padding-left: 10px;">Michael Schucracker</td>
+                <td style="padding-left: 20px;"> 
+                    <p>Bachelor Degree in Computer Science.<br>
+                    3 Top Skills: </p>
+                    <ol>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>C++</li>
+                    </ol>
+                </td>
+                <td style="text-align: center;">5555-7788</td>
+            </tr>
+
+        </table>
+
+    </body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aplikasi Table</title>
+    <style>
+     
+        table, th, td {
+            border: 1px solid black; 
+            border-collapse: collapse;
+        }
+
+        table.promo {
+            display: inline-table;
+            width: 200px;
+            margin: 10px 20px;
+        }
+        
+        table.promo, table.promo th, table.promo td {
+            border: 3px solid red; 
+        }
+
+        table.promo th, table.promo td {
+            padding: 20px;
+            text-align: center;
+        }
+
+        table.promo td.menu-items {
+            text-align: left;
+            padding-left: 35px;
+            height: 150px;
+            vertical-align: middle;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+   
+
+    <table style="width: 100%;">
+        <tr>
+            <th>User ID</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Lokey Irawan</td>
+            <td style="text-align: center;">my@gmail.com</td>
+            <td style="text-align: center;">08123456789</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">John Doe</td>
+            <td style="text-align: center;">john.doe@gmail.com</td>
+            <td style="text-align: center;">08987654321</td>
+        </tr>
+    </table>
+
+    <p>_________________________________________</p>
+
+    <table style="width: 100%;">
+        <tr>
+            <th><b>User ID</b></th>
+            <th><b>Name</b></th>
+            <th><b>Phone</b></th>
+            <th><b>Cash or Debit</b></th>
+            <th><b>Total</b></th>
+        </tr>
+        <tr>
+            <td style="text-align: center;">00001</td>
+            <td style="text-align: left;">Andy Stefanus</td>
+            <td style="text-align: center;">55555-1234</td>
+            <td style="text-align: center;">Cash</td>
+            <td style="text-align: left;">IDR 1.250.000,-</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">00009</td>
+            <td style="text-align: left;">John Doe</td>
+            <td style="text-align: center;">55555-7890</td>
+            <td style="text-align: center;">Debit</td>
+            <td style="text-align: left;">IDR 5.500.000,-</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">00031</td>
+            <td style="text-align: left;">Michael Schucraker</td>
+            <td style="text-align: center;">55555-7788</td>
+            <td style="text-align: center;">Cash</td>
+            <td style="text-align: left;">IDR 756.400,-</td>
+        </tr>
+    </table>
+
+    <h2><b> Users </b></h2>
+    
+    <table style="width: 100%;">
+        <tr>
+            <th style="width: 100px; height: 30px; text-align: center;"><b>User ID</b></th>
+            <th style="width: 100px; height: 30px; text-align: center;"><b>Photo</b></th>
+            <th style="width: 300px; height: 30px; text-align: center;"><b>Name</b></th>
+            <th style="width: 150px; height: 30px; text-align: center;"><b>Phone</b></th>
+        </tr>
+        <tr>
+            <td style="text-align: center;">00001</td>
+            <td style="text-align: center;"> <img src="https://www.w3schools.com/w3css/img_avatar1.png" height="80" width="80"> </td>
+            <td style="text-align: left;">Andy Stefanus</td>
+            <td style="text-align: center;">55555-1234</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">00009</td>
+            <td style="text-align: center;"> <img src="https://www.w3schools.com/w3css/img_avatar2.png" height="80" width="80"> </td>
+            <td style="text-align: left;">John Doe</td>
+            <td style="text-align: center;">55555-7890</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">00031</td>
+            <td style="text-align: center;"> <img src="https://www.w3schools.com/w3css/img_avatar3.png" height="80" width="80"> </td>
+            <td style="text-align: left;">Michael Schucraker</td>
+            <td style="text-align: center;">55555-7788</td>
+        </tr>
+    </table>
+
+    <p>_________________________________________</p>
+
+    <div style="text-align: center; margin-top: 40px; margin-bottom: 40px;">
+        
+        <table class="promo">
+            <tr>
+                <th><h3>Promo 1</h3></th>
+            </tr>
+            <tr>
+                <td class="menu-items">
+                    2 Fried Chicken<br>
+                    2 Cola<br>
+                    1 Rice
+                </td>
+            </tr>
+            <tr>
+                <td><h3>IDR. 55.000,-</h3></td>
+            </tr>
+        </table>
+
+        <table class="promo">
+            <tr>
+                <th><h3>Promo 2</h3></th>
+            </tr>
+            <tr>
+                <td class="menu-items">
+                    4 Fried Chicken<br>
+                    2 Cola<br>
+                    2 Rice
+                </td>
+            </tr>
+            <tr>
+                <td><h3>IDR. 80.000,-</h3></td>
+            </tr>
+        </table>
+
+        <table class="promo">
+            <tr>
+                <th><h3>Promo 3</h3></th>
+            </tr>
+            <tr>
+                <td class="menu-items">
+                    8 Fried Chicken<br>
+                    4 Cola<br>
+                    4 Rice
+                </td>
+            </tr>
+            <tr>
+                <td><h3>IDR. 120.000, -</h3></td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>

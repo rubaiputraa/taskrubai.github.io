@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <b>Bold</b> <br>        </br>
+    <i>Italic</i>            </br>
+    <mark>Merked</mark>     </br>
+    <del>Deleted</del>      </br>
+    <ins>Inserted</ins>     </br>
+    T<sub>Subscript</sub>   </br>
+    T<sup>Superscript</sup> </br>
+
+
+    <b > Augmented Reality Nowdays</b> </br>
+    <p>lokey irawan <sup>1</sup>, naomi jessica <sup>2</sup></p>  </br>
+    <p><b>Lorem</b> ipsum sit amet, consectetur adipiscing elit. <mark>Fusce et ege
+    velit</mark>. Nulla ultrices eget eros a ornare. <del>Praesent mollis</del> vihecula nibh,
+    licinia purus agestas vel. Quisque id libero vel diam pulvinar finibus.
+    <ins>Pallentesque luctus sapien</ins> sit amet posuere.</p>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+
+        <h2>The Code Element</h2>
+        <p>JAVA Source Code</p>
+
+        <code>
+
+            x = 5;
+            y = 6;
+            x = x + y;
+
+        </code>
+
+    </body>
+
+    
+
+
+
+
+</html>

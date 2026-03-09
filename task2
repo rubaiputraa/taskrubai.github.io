@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Witdh and the Height Attributes</h2>
+    <p>The witdh and height attributes of the img 
+        witdh and height of the image</p>
+    
+
+    <img src="https://www.w3schools.com/howto/img_avatar2.png" width="500" height="600">
+
+</body>
+
+
+
+</html>
