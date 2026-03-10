@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+  <html>
+  <body>
+  <h2>Radio Buttons</h2>
+
+  <p>Gender</p>
+
+  <form>
+   <input type="radio" id="male" name="gender" value="HTML">
+  <label for="male">Male</label><br>
+   <input type="radio" id="female" name="gender" value="CSS" checked>
+   <label for="female">Female</label><br>
+ </form> 
+
+ <p>________________________________________________________________</p>
+
+ <h2>Input Typr Radio Buttons</h2>
+
+  <p>Choose one of your favorite Web Language:</p>
+
+  <form>
+    <input type="radio" id="HTML" name="Web Language" value="HTML">
+        <label for="HTML">HTML</label><br>
+    <input type="radio" id="CSS" name="Web Language" value="CSS" checked>
+        <label for="CSS">CSS</label><br>
+    <input type="radio" id="JavaScript" name="Web Language" value="JavaScript" checked>
+        <label for="JavaScript">JavaScript</label><br>
+  </form> 
+
+ </body>
+ </html>

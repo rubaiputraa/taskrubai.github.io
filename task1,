@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+  <html>
+ <body>
+
+  <h2>Simple Form</h2>
+
+  <form action="/action_page.php">
+    <label for="fname" style='font-size: 12pt'>fname:</label><br>
+    <input type="text" id="fname" value="Lockey" style='font-size:11pt' ><br><br>
+    <label for="lname" style='font-size: 12pt'>lname:</label><br>
+    <input type="text" id="lname" value="Irawan" style='font-size:11pt'><br><br>
+   <input type="submit" value="Submit" style='font-size: 11pt'>
+ </form> 
+
+ </body>
+ </html>

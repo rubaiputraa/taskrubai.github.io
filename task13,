@@ -1,0 +1,140 @@
+<html>
+<head>
+    <title>Employee Details</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin-top: 50px; background-color: #f4f6f9;">
+
+    <table style="margin: 0 auto; border: 1px solid #d3d3d3; padding: 30px; border-radius: 8px; width: 550px; background-color: #ffffff;" cellspacing="12">
+        
+        <tr>
+            <td colspan="2" style="text-align: center; padding-bottom: 20px;">
+                <h2 style="margin: 0; color: #1a202c;">Employee Details</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td style="white-space: nowrap; color: #3b82f6; font-weight: bold; font-size: 14px;">01. Personal Information&nbsp;&nbsp;</td>
+                        <td style="width: 100%;"><div style="border-top: 2px solid #3b82f6;"></div></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="width: 50%;">
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">Employee Name <span style="color: red;">*</span></div>
+                <input type="text" value="First Name" style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0;">
+            </td>
+            <td style="width: 50%;">
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">Last Name</div>
+                <input type="text" value="Last Name" style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">Starting Date</div>
+                <input type="text" value="📅 DD/MM/YYYY" style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0;">
+            </td>
+            <td>
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">Birth Date</div>
+                <input type="text" value="📅 DD/MM/YYYY" style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">Employee Type</div>
+                <select style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0;">
+                    <option value="" selected>Select</option>
+                    <option value="ft">Full Time</option>
+                    <option value="pt">Part Time</option>
+                </select>
+            </td>
+            <td style="vertical-align: middle;">
+                <div style="font-size: 13px; margin-bottom: 8px; color: #333;">Gender</div>
+                <input type="radio" id="male" name="gender" checked style="margin-right: 5px; cursor: pointer;">
+                <label for="male" style="font-size: 13px; color: #333; margin-right: 15px; cursor: pointer;">Male</label>
+                
+                <input type="radio" id="female" name="gender" style="margin-right: 5px; cursor: pointer;">
+                <label for="female" style="font-size: 13px; color: #333; cursor: pointer;">Female</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">Position</div>
+                <input type="text" value="Position" style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0;">
+            </td>
+            <td></td> </tr>
+
+        <tr>
+            <td colspan="2" style="padding-top: 15px;">
+                <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td style="white-space: nowrap; color: #3b82f6; font-weight: bold; font-size: 14px;">02. Location&nbsp;&nbsp;</td>
+                        <td style="width: 100%;"><div style="border-top: 2px solid #3b82f6;"></div></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">City</div>
+                <input type="text" value="City" style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0;">
+            </td>
+            <td>
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">State</div>
+                <input type="text" value="State" style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0;">
+            </td>
+        </tr>
+
+        <tr>
+            <td style="vertical-align: top;">
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">ZIP</div>
+                <input type="text" value="ZIP" style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0;">
+            </td>
+            <td style="vertical-align: top;">
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">Address</div>
+                <textarea style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0; height: 80px; resize: none;">Address</textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding-top: 15px;">
+                <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td style="white-space: nowrap; color: #3b82f6; font-weight: bold; font-size: 14px;">03. Contact Information&nbsp;&nbsp;</td>
+                        <td style="width: 100%;"><div style="border-top: 2px solid #3b82f6;"></div></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">Phone</div>
+                <input type="text" value="Phone" style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0;">
+            </td>
+            <td>
+                <div style="font-size: 13px; margin-bottom: 5px; color: #333;">Email</div>
+                <input type="text" value="Email" style="width: 100%; padding: 10px; border: 1px solid #d3d3d3; background-color: #fbfbfb; border-radius: 4px; box-sizing: border-box; color: #a0aec0;">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align: center; padding-top: 25px;">
+                <button style="background-color: #3b82f6; color: white; padding: 12px; width: 200px; border: none; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer;">
+                    Register
+                </button>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

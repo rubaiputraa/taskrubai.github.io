@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Create Account</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin-top: 50px;">
+
+    <table style="margin: 0 auto; border: 1px solid #d3d3d3; padding: 30px; border-radius: 8px; width: 450px;" cellspacing="12">
+        
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <h2 style="margin: 0 0 15px 0; color: #1a202c;">Create Account</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="50%">
+                <input type="text" value="First Name" style="width: 100%; padding: 12px; border: none; background-color: #f7fafc; border-radius: 5px; box-sizing: border-box; color: #718096;">
+            </td>
+            <td width="50%">
+                <input type="text" value="Last Name" style="width: 100%; padding: 12px; border: none; background-color: #f7fafc; border-radius: 5px; box-sizing: border-box; color: #718096;">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <select style="width: 100%; padding: 12px; border: none; background-color: #f7fafc; border-radius: 5px; box-sizing: border-box; color: #718096;">
+                    <option value="" selected>Country</option>
+                    <option value="id">Indonesia</option>
+                    <option value="us">United States</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" value="Email Address" style="width: 100%; padding: 12px; border: none; background-color: #f7fafc; border-radius: 5px; box-sizing: border-box; color: #718096;">
+            </td>
+            <td>
+                <input type="text" value="Phone Number" style="width: 100%; padding: 12px; border: none; background-color: #f7fafc; border-radius: 5px; box-sizing: border-box; color: #718096;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" value="Password" style="width: 100%; padding: 12px; border: none; background-color: #f7fafc; border-radius: 5px; box-sizing: border-box; color: #718096;">
+            </td>
+            <td>
+                <input type="text" value="Confirm Password" style="width: 100%; padding: 12px; border: none; background-color: #f7fafc; border-radius: 5px; box-sizing: border-box; color: #718096;">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding-top: 10px;">
+                <input type="checkbox" id="terms" checked>
+                <label for="terms" style="font-size: 14px; color: #2d3748;">Terms and Condition</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align: center; padding-top: 25px;">
+                <button style="background-color: #2b6cb0; color: white; padding: 12px; width: 200px; border: none; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer;">
+                    Create
+                </button>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
